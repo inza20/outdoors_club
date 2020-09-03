@@ -1,0 +1,153 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+
+}
+
+.navbar-custom{
+  background-color: #393b44;
+}
+
+.navbar-brand {
+  font-family: 'Alfa Slab One', cursive;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'PT Sans', sans-serif;
+}
+
+.lnk {
+  margin-left: 850px;
+}
+
+/* Events....................... */
+
+.eve {
+  width: 100%;
+}
+
+.cardd{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2rem;
+  background: #F1F1F1;
+  margin-bottom: 3rem;
+}
+
+.cardd:nth-child(even) img{
+  order: 2;
+}
+
+.btn {
+  padding: 0.5rem;
+}
+
+/* Profile ....................*/
+
+.two{
+  background-color: #cd0a0a;
+}
+
+.carimg{
+  height: 600px;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+  padding: 60px;
+  text-align: center;
+  font-family: 'Lobster', cursive;
+}
+
+.profile {
+  height: 150px;
+  width: 150px;
+  margin-left: 170px;
+}
+
+.card-title{
+  text-align: center;
+}
+
+/*  What we Provide ........... */
+#features {
+  position: relative;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.ft-box {
+  padding: 4.5%;
+  text-align: center;
+}
+
+.icon {
+  color: #00416d;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #00334e;
+}
+
+
+.three{
+
+  /* background-image: url(../img/hands.jpg); */
+  background-color: #393b44;
+  height: 400px;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  justify-content: center;
+}
+
+.three h2 {
+  color: #f6f5f5;
+}
+
+.coll {
+  width: 70%;
+  text-align: center;
+  margin-left: 250px;
+  color: #fff;
+}
+
+
+
+.two h2 {
+  color: #f6f5f5;
+}
+
+/* Footer */
+.social-icon {
+  margin: 20px 10px;
+  color: #fff;
+}
+
+.white-section {
+  width: 100%;
+  text-align: center;
+  padding-top:  50px;
+  padding-bottom: 20px;
+  background: #000
+}
+
+.white-section p{
+  color: #fff;
+}
